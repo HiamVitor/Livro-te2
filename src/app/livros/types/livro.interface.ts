@@ -9,4 +9,7 @@ export interface LivroInterface {
   autores: AutorInterface[];
   editora: string;
   ano: number;
+  // Parte Nova Feita na 01 Aula Dia (26/02/2024)
+  logoURL: string;
+  preco: number;
 }
